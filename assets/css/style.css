@@ -1,0 +1,19 @@
+/* ===== BODY ===== */
+body {
+  background: #1B1D20;
+  color: #fff;
+}
+/* ===== HEADER ===== */
+header {
+  background: #0E1013;
+}
+nav {
+  padding: 0.5em 0 !important;
+}
+nav .navbar-brand {
+  width: 20vw;
+}
+/* ===== FOOTER ===== */
+footer {
+  background: #0E1013;
+}
