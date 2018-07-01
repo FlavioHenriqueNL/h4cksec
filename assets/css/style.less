@@ -4,6 +4,10 @@
 @cinza-escuro: #1B1D20;
 
 //MIXINS
+/* ===== GLOBAL ===== */
+section, header, footer{
+    padding: 1em 0;
+}
 /* ===== BODY ===== */
 body{
     background: @cinza-escuro;
@@ -18,6 +22,17 @@ nav{
     .navbar-brand{
         width: 20vw;
     }
+}
+/* ===== PALESTRANTES ===== */
+#palestrantes{
+    padding: 1em 0;
+    background: @cinza-claro;
+   .palestrantes{
+       .palestrante{
+           margin-bottom: 1em;
+
+       }
+   }
 }
 /* ===== FOOTER ===== */
 footer{
