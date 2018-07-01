@@ -4,6 +4,10 @@
 @cinza-escuro: #1B1D20;
 
 //MIXINS
+/* ===== GLOBAL ===== */
+section, header, footer{
+    padding: 1em 0;
+}
 /* ===== BODY ===== */
 body{
     background: @cinza-escuro;
@@ -19,6 +23,21 @@ nav{
         width: 20vw;
     }
 }
+.img-teste{
+    
+
+}
+/* ===== PALESTRANTES ===== */
+#palestrantes{
+    padding: 1em 0;
+    background: @cinza-claro;
+   .palestrantes{
+       .palestrante{
+           margin-bottom: 1em;
+
+       }
+   }
+}
 /* ===== LOCAL ===== */
 #local{
     height: 80vh;
@@ -28,7 +47,7 @@ nav{
     font-size: 4vw;
     background: url(../media/img/background-local.jpg)no-repeat;
     background-size: cover;
-    background-attachment: fixed
+    background-attachment: fixed;
 }
 /* ===== FOOTER ===== */
 footer{

@@ -1,3 +1,9 @@
+/* ===== GLOBAL ===== */
+section,
+header,
+footer {
+  padding: 1em 0;
+}
 /* ===== BODY ===== */
 body {
   background: #1B1D20;
@@ -12,6 +18,14 @@ nav {
 }
 nav .navbar-brand {
   width: 20vw;
+}
+/* ===== PALESTRANTES ===== */
+#palestrantes {
+  padding: 1em 0;
+  background: #282A2D;
+}
+#palestrantes .palestrantes .palestrante {
+  margin-bottom: 1em;
 }
 /* ===== LOCAL ===== */
 #local {
