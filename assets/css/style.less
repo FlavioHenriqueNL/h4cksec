@@ -5,8 +5,17 @@
 
 //MIXINS
 /* ===== GLOBAL ===== */
-section, header, footer{
+section, footer{
     padding: 1em 0;
+}
+section:nth-child(odd){
+    background: @cinza-escuro 
+    
+}
+section:nth-child(even){
+     
+    background:@cinza-claro
+    
 }
 /* ===== BODY ===== */
 body{
@@ -15,16 +24,23 @@ body{
 }
 /* ===== HEADER ===== */
 header{
-    background: @preto-escuro;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url(../media/img/background-palmeira.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 nav{
-    padding: 0.5em 0 !important;
+    margin: 0 !important;
+    background: @preto-escuro;
     .navbar-brand{
         width: 20vw;
     }
 }
-.img-teste{
-    
+#ondesera{
+    background: none;
 
 }
 /* ===== PALESTRANTES ===== */
@@ -45,7 +61,7 @@ nav{
     align-items: center;
     padding: 2vw;
     font-size: 4vw;
-    background: url(../media/img/background-local.jpg)no-repeat;
+    background: url(../media/img/background-local.png)no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }

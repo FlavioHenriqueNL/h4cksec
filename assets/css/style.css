@@ -1,8 +1,13 @@
 /* ===== GLOBAL ===== */
 section,
-header,
 footer {
   padding: 1em 0;
+}
+section:nth-child(odd) {
+  background: #1B1D20;
+}
+section:nth-child(even) {
+  background: #282A2D;
 }
 /* ===== BODY ===== */
 body {
@@ -11,13 +16,23 @@ body {
 }
 /* ===== HEADER ===== */
 header {
-  background: #0E1013;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url(../media/img/background-palmeira.png) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 nav {
-  padding: 0.5em 0 !important;
+  margin: 0 !important;
+  background: #0E1013;
 }
 nav .navbar-brand {
   width: 20vw;
+}
+#ondesera {
+  background: none;
 }
 /* ===== PALESTRANTES ===== */
 #palestrantes {
@@ -34,7 +49,7 @@ nav .navbar-brand {
   align-items: center;
   padding: 2vw;
   font-size: 4vw;
-  background: url(../media/img/background-local.jpg) no-repeat;
+  background: url(../media/img/background-local.png) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
