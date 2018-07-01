@@ -13,6 +13,17 @@ nav {
 nav .navbar-brand {
   width: 20vw;
 }
+/* ===== LOCAL ===== */
+#local {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  padding: 2vw;
+  font-size: 4vw;
+  background: url(../media/img/background-local.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 /* ===== FOOTER ===== */
 footer {
   background: #0E1013;
